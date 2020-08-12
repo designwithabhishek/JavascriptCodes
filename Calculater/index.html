@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculater</title>
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="Js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container p-5">
+      <h1 class="text-center">Calculater</h1>
+      <div class="row justify-content-center">
+        <div class="col-8">
+          <input
+            class="w-100"
+            type="text"
+            name=""
+            id="expressionBox"
+            value=""
+          />
+        </div>
+      </div>
+      <div id="controls">
+        <div class="row justify-content-center">
+          <div class="col-2 p-1">
+            <button class="btn btn-light shadow w-100 inputs">(</button>
+          </div>
+          <div class="col-2 p-1">
+            <button class="btn btn-light shadow w-100 inputs">)</button>
+          </div>
+          <div class="col-2 p-1">
+            <button class="btn btn-light shadow w-100 inputs">%</button>
+          </div>
+          <div class="col-2 p-1">
+            <button id="clearBtn" class="btn btn-light shadow w-100">CE</button>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-2 p-1">
+            <button class="btn btn-light shadow w-100 inputs">7</button>
+          </div>
+          <div class="col-2 p-1">
+            <button class="btn btn-light shadow w-100 inputs">8</button>
+          </div>
+          <div class="col-2 p-1">
+            <button class="btn btn-light shadow w-100 inputs">9</button>
+          </div>
+          <div class="col-2 p-1">
+            <button class="btn btn-light shadow w-100 inputs">/</button>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-2 p-1">
+            <button class="btn btn-light shadow w-100 inputs">4</button>
+          </div>
+          <div class="col-2 p-1">
+            <button class="btn btn-light shadow w-100 inputs">5</button>
+          </div>
+          <div class="col-2 p-1">
+            <button class="btn btn-light shadow w-100 inputs">6</button>
+          </div>
+          <div class="col-2 p-1">
+            <button class="btn btn-light shadow w-100 inputs">*</button>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-2 p-1">
+            <button class="btn btn-light shadow w-100 inputs">1</button>
+          </div>
+          <div class="col-2 p-1">
+            <button class="btn btn-light shadow w-100 inputs">2</button>
+          </div>
+          <div class="col-2 p-1">
+            <button class="btn btn-light shadow w-100 inputs">3</button>
+          </div>
+          <div class="col-2 p-1">
+            <button class="btn btn-light shadow w-100 inputs">-</button>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-2 p-1">
+            <button class="btn btn-light shadow w-100 inputs">0</button>
+          </div>
+          <div class="col-2 p-1">
+            <button class="btn btn-light shadow w-100 inputs">.</button>
+          </div>
+          <div class="col-2 p-1">
+            <button id="evaluateBtn" class="btn btn-primary shadow w-100">
+              =
+            </button>
+          </div>
+          <div class="col-2 p-1">
+            <button class="btn btn-light shadow w-100 inputs">+</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
